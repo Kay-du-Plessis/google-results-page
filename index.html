@@ -7,18 +7,47 @@
     <link rel="stylesheet" type="text/css" href="styles.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
       rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet">
 </head>
 <body>
     
 <div id=header-bar>
-    <div id="icon">
+    <div class="headleft">
+       <div id="icon">
         <img src="https://mariussma.github.io/google-search-results/images/google-logo.png">
-    </div>
-    <div class="searchdiv">
+       </div>
+       <div class="searchdiv">
         <input class="search" type="search" value="adopting pets">
+        <span id="close" class="material-icons">close</span>
         <span id="mic" class="material-icons">mic</span>
         <span id="search" class="material-icons">search</span>
-    </div>  
+       </div> 
+    </div> 
+    <div class="headright">
+        <span id="settings" class="material-icons">settings</span>
+        <span id="apps" class="material-icons-round">apps</span>
+        <span id="acc" class="material-icons">account_circle</span>
+     </div> 
 </div>
+
+<div class="navbar">
+    <ul class="navbarul">
+        <a href="#"><li class="list-item"><span class="material-icons">search</span><span class="lit">All</span></li></a>
+        <a href="#"><li class="list-item"><span class="material-icons-outlined">image</span><span class="lit">Images</span></li></a>
+        <a href="#"><li class="list-item"><span class="material-icons-outlined">local_offer</span><span class="lit">Shopping</span></li></a>
+        <a href="#"><li class="list-item"><span class="material-icons-outlined">smart_display</span><span class="lit">Videos</span></li></a>
+        <a href="#"><li class="list-item"><span class="material-icons-outlined">place</span><span class="lit">Maps</span></li></a>
+        <a href="#"><li class="list-item"><span class="material-icons">more_vert</span><span class="lit">More</span></li></a>
+    </ul>
+    <a href="#"><li class="list-item"><button id="tools" type="submit">Tools</button></li></a>
+</div>
+
+
+
+
+
 </body>
 </html>
