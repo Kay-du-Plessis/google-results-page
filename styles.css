@@ -130,6 +130,23 @@ input:focus {
 .list-item {
     display: flex;
     border-bottom: transparent;
+    padding: 17px 12px 11px 10px;
+}
+
+#tools {
+    display: flex;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    line-height: 19px;
+    font-family: arial;
+    font-size: 14px;
+    color: #5F6368;
+}
+
+#tools:hover {
+    border: solid 1px #5F6368;
+}
+
 }
 
 ul {
@@ -138,6 +155,7 @@ ul {
 
 a {
     text-decoration: none;
+    font-size: 14px;
     color: #5F6368;
 }
 
