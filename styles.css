@@ -185,7 +185,19 @@ a {
     padding: 5px 0px px 0px;
 }
 
+.link-small {
+    font-size: 20px;
+    color: #1a0dab;
+    padding: 5px 0px px 0px;
+}
+
 .link:hover{
+    text-decoration: underline;
+    color: #1a0dab;
+    cursor: pointer;
+}
+
+.link-small:hover{
     text-decoration: underline;
     color: #1a0dab;
     cursor: pointer;
@@ -194,3 +206,21 @@ a {
 .link-text {
     color: #4d5156;
 }
+
+.accordion {
+    border: solid 1px green;
+    display: block;
+    cursor: pointer;
+    padding: 18px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
