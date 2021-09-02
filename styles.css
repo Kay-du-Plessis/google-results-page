@@ -158,10 +158,6 @@ a {
     color: #5F6368;
 }
 
-.material-icons-outlined { 
-    font-size: 5px; 
-}
-
 .search-results {
     display: block;
     margin: 0px 0px 12px 150px;
@@ -174,15 +170,16 @@ a {
     display: block;
     margin: 0px 0px 12px 150px;
     padding: 12px 0px 8px;
-    max-width: 43.5rem;
-    line-height: 1.58;
+    max-width: 696px;
+    line-height: 20px;
     font-family: arial;
 }
 
 .link {
     font-size: 20px;
     color: #1a0dab;
-    padding: 5px 0px px 0px;
+    padding-top: 8px;
+    padding-bottom: 5px;
 }
 
 .link-small {
@@ -208,19 +205,32 @@ a {
 }
 
 .accordion {
-    border: solid 1px green;
-    display: block;
-    cursor: pointer;
-    padding: 18px;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    max-width: 696px;
+    margin: 0px 0px 12px 150px;
+    padding-bottom: 40px;
 }
 
-.panel {
-    padding: 0 18px;
+.button {
+    display: flex;
+    line-height: 15px;
+    padding: 12px 0px 8px;
+    text-align: left;
+    font-size: 17px;
+    color: #3b3c3f;
+    font-family: Arial;
     background-color: white;
-    display: none;
-    overflow: hidden;
-  }
+    border:white;
+    border-bottom: solid 1px rgba(218, 220, 224, 0.5);
+}
+
+h1 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 20px;
+    color:  #202124;
+    margin: 0;
+    padding-top: 40px;
+}
