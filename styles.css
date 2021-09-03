@@ -297,6 +297,14 @@ footer {
     align-self: center;
 }
 
+.o {
+    color: #F4B400;
+    font-family: Roboto;
+    font-size: 35px;
+    margin: 0;
+    align-self: center
+}
+
 .l {
     color: #0F9D58;
     font-family: Roboto;
@@ -325,7 +333,7 @@ footer {
 }
 
 a {
-    padding-left: 15px;
+    padding-left: 12px;
     color: blue;
     text-decoration: none;
 }
